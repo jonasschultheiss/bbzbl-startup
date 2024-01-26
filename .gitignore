@@ -6,5 +6,9 @@
 *.out
 *.synctex.gz
 *.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
 temp.md
 ~$a_jsc_ose_2021.pdf

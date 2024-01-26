@@ -1,0 +1,22 @@
+\input{./config}
+\addbibresource{quellen.bib}
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{fancy}}} 
+
+\begin{document}
+\include{./chapters/title}
+\frontmatter
+\pagenumbering{Roman}
+\include{./chapters/frontmatter/document-management}
+\include{./chapters/frontmatter/abstract}
+\tableofcontents
+\mainmatter
+\pagestyle{fancy}
+\part{Introduction}
+\input{chapters/introduction/introduction.tex}
+\part{Business plan}
+\input{chapters/business-plan/business-plan.tex}
+\part{Future}
+\input{chapters/future/future.tex}
+\part{Appendix}
+\input{./chapters/appendix/appendix}
+\end{document}

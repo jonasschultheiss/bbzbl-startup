@@ -9,8 +9,8 @@ jobs:
         uses: xu-cheng/latex-action@1.2.1
         with:
           working_directory: ./
-          root_file: ipa_jsc_ose_2021.tex
+          root_file: wr-skypulse-technologies.tex
       - uses: actions/upload-artifact@v1
         with:
-          name: ipa_jsc_ose_2021
-          path: ipa_jsc_ose_2021.pdf
+          name: wr-skypulse-technologies
+          path: wr-skypulse-technologies.pdf
